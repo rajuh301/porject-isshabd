@@ -1,0 +1,73 @@
+.my-card{
+    
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 100px 0;
+    gap: 20px;
+
+}
+
+#logo{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 32%;
+    height: 300px;
+    /* width: 500px; */
+}
+
+#issha-bd{
+    text-align: center;
+     margin-top: 50px; 
+     font-weight: 800; 
+     font-size: 100px; 
+     color: green;
+      margin-left:10%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100%;
+    background-color: darkgreen;
+}
+
+
+@media screen and (max-width:576px) {
+    .my-card{
+        margin-top: 20px;
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-body a{
+        margin-left: 30%;
+    }
+
+    #issha-bd{
+        text-align: center;
+         margin-top: 50px; 
+         font-weight: 800; 
+         font-size: 35px; 
+         color: green;
+         margin-left:30%;
+    }
+
+    #logo{
+        margin-left:25%;
+        margin-top: 2%;
+        height: 120px;
+        
+    }
+
+    .isshabd-logo h3{
+        padding-top: 10%;
+    }
+
+    }
+
+
+
+    
+}
